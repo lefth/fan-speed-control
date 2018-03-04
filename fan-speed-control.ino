@@ -31,9 +31,9 @@ const int outputPin = 10;   // PWM output, to determine how fast the fan spins.
 						    // use PWM (pulling it down to ground) to change the
 						    // speed. In this circuit, setting the output HIGH
 						    // means the fan's wire is pulled down to ground by a
-						    // NPN transistor. Use something like a 470 ohm
-						    // resistor to limit current. You MUST use a
-						    // transistor, since the pulled-up voltage goes to 12V.
+						    // NPN transistor. An external resistor is not needed.
+							// MUST use a transistor, since the pulled-up
+							// voltage can be up to 12V.
 const int ledPin = 13;      // No need to hook up anything if you're happy to look
                             // directly at the light on the board.
 
