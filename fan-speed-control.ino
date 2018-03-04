@@ -26,16 +26,16 @@ const int dialPin = A0;     // The middle pin of a potentiometer voltage divider
 const int buttonPin = 12;   // Button for turning the fan on and off
 const int powerPin = 11;    // For controlling whether the fan gets power.
 const int outputPin = 10;   // PWM output, to determine how fast the fan spins.
-						    // The fan speed wire is pulled up. Pull it down to
-						    // ground to set the speed to the lowest level. And
-						    // use PWM (pulling it down to ground) to change the
-						    // speed. In this circuit, setting the output HIGH
-						    // means the fan's wire is pulled down to ground by a
-						    // NPN transistor. An external resistor is not needed.
+							// The fan speed wire is pulled up. Pull it down to
+							// ground to set the speed to the lowest level. And
+							// use PWM (pulling it down to ground) to change the
+							// speed. In this circuit, setting the output HIGH
+							// means the fan's wire is pulled down to ground by a
+							// NPN transistor. An external resistor is not needed.
 							// MUST use a transistor, since the pulled-up
 							// voltage can be up to 12V.
 const int ledPin = 13;      // No need to hook up anything if you're happy to look
-                            // directly at the light on the board.
+							// directly at the light on the board.
 
 void setup() {
   pinMode(dialPin, INPUT);
@@ -53,7 +53,7 @@ bool getToggleState()
 {
   static bool isOn = true;
   static bool wasPressed = false;
-  const int arrayLength = 40;
+  const int arrayLength = 20;
   static bool historyBuffer[arrayLength];
   static unsigned int index = 0;
 
