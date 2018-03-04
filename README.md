@@ -37,6 +37,9 @@ liquid.) Using the built in speed control doesn't have that problem. However,
 operation is still limited by the lowest speed. My fan's minimum speed is
 probably still too fast to stir something very thick like honey.
 
+## Circuit
+![Circuit diagram](fan-speed-control.png?raw=true)
+
 ## More info about 4-wire fans
 I learned about the speed control in this video:
 https://www.youtube.com/watch?v=gKHww3qJbs8
