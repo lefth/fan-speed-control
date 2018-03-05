@@ -30,9 +30,9 @@ the transistor collector, but I don't know whether this is necessary.
 
 ## Use for magnetic stirrers
 Magnetic stirrers are very easy to make with a computer fan, but people
-typically control their speed by limiting their voltage with a variable
+typically control their speed by limiting the voltage with a variable
 resistor. This works badly because they may not have enough torque to get
-started until they're at nearly full power. (Good luck trying to stir a thick
+started until they're at nearly full power. (And good luck trying to stir a thick
 liquid.) Using the built in speed control doesn't have that problem. However,
 operation is still limited by the lowest speed. My fan's minimum speed is
 probably still too fast to stir something very thick like honey.
