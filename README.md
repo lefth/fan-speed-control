@@ -25,8 +25,10 @@ to determine the desired speed, rewrite the `getChosenSpeed` function.
 
 My circuit uses two 2222A transistors, but you could use almost any transistor.
 
-I used a 470 ohm resistor to limit current between the fan's control line and
-the transistor collector, but I don't know whether this is necessary.
+## Why not use a 555 timer?
+Since Arduino is popular with beginners, there are a lot of people that don't
+have a 555 timer. If you have it and know how to use it, use the 555! You may
+need to limit the frequency so it doesn't get so high the fan gets confused.
 
 ## Use for magnetic stirrers
 Magnetic stirrers are very easy to make with a computer fan, but people
